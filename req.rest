@@ -1,0 +1,18 @@
+GET http://127.0.0.1:8000/api/user/getAll HTTP/1.1
+###
+
+GET http://127.0.0.1:8000/api/user/getById/1 HTTP/1.1
+
+####
+
+GET http://127.0.0.1:8000/api/si HTTP/1.1
+
+#####
+
+Post http://127.0.0.1:8000/api/user/add HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "password": "sample"
+}
